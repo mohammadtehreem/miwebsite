@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mi-logo {
+  width: 35px;
+  position: relative;
+  top: 10px;
+}
+
+.navbar {
+  width: 75%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul1,
+.nav-ul2 {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-logo {
+  margin-left: 5px;
+  position: relative;
+  top: 18px;
+  right: 20px;
+}
