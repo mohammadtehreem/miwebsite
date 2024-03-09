@@ -1,15 +1,18 @@
 body {
   padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
   font-family: "Open Sans", sans-serif;
 }
 
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .mi-logo {
   width: 35px;
   position: relative;
-  top: 10px;
+  top: 14px;
 }
 
 .navbar {
@@ -32,4 +35,90 @@ body {
   position: relative;
   top: 18px;
   right: 20px;
+}
+
+.section1 {
+  margin: 70px 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card-top {
+  margin: 20px;
+}
+
+.card {
+  width: 17%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-sizing: border-box;
+}
+
+.offer {
+  background-color: #ff69001a;
+  width: 30%;
+  /* border: 1px solid #ff6900; */
+  text-align: center;
+  border-radius: 7px;
+}
+
+.offer p {
+  color: #ff6900;
+  font-size: small;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prod-pic {
+  width: 60%;
+}
+
+.rate {
+  position: relative;
+  top: 60px;
+  left: 25px;
+}
+
+.slash {
+  text-decoration: line-through;
+  color: #d0d0d0;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  background-image: url(https://i03.appmifile.com/313_operator_in/05/06/2023/da85ab08b8be256a4ac91a43c02ad695.jpg?thumb=1&w=1680&f=webp&q=85);
+  background-size: cover;
+  /* background-position-x: 80%; */
+  background-repeat: no-repeat;
+  width: 64%;
+  height: 18vh;
+}
+
+.container {
+  position: relative;
+  left: 30px;
+  text-align: left;
+  width: 40%;
+  margin: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #191919;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.banner-heading {
+  margin: 20px 0 0 0;
+}
+
+.bannner-subheading {
+  margin: 10px;
 }
